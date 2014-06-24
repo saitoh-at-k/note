@@ -33,7 +33,7 @@ Boxをダウンロード
   - http://opscode.github.io/bento/
 - vagrant box add コマンドでboxを追加する
   - (例) centos5 という 名前、「CentOS5.10-i386, 構成管理ツールなし」という環境のBoxを追加
-    - `vagrant box add centos5 http://puppet-vagrant-boxes.puppetlabs.com/centos-510-i386-virtualbox-nocm.box`
+    ```vagrant box add centos5 http://puppet-vagrant-boxes.puppetlabs.com/centos-510-i386-virtualbox-nocm.box```
 
 
 初期設定～起動まで
@@ -58,16 +58,21 @@ Proxy設定（必要に応じて）
 -------------------------
 
 - /etc/yum.conf
+
   ```
   proxy=http://proxy.ex.co.jp:8080
   proxy_username=name
   proxy_password=password
   ```
+
 - ~/.curlrc
+
   ```
   proxy=http://name:password@proxy.ex.co.jp:8080
   ```
+
 - ~/.zshrc
+
   ```
   export HTTP_PROXY=http://name:password@proxy.ex.co.jp:8080
   export HTTPS_PROXY=http://name:password@proxy.ex.co.jp:8080
