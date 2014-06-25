@@ -52,3 +52,11 @@ MongoDBの操作
 - 自動起動
 
   ```sudo /sbin/chkconfig mongod on```
+
+- 接続
+
+  ```mongo```
+
+- DB選択
+
+  ```use mydb```
