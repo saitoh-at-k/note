@@ -31,7 +31,7 @@ enabled=1
 インストール
 ============
 
-sudo yum install mongodb-org
+```sudo yum install mongodb-org```
 
 
 MongoDBの操作
