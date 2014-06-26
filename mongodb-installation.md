@@ -1,5 +1,5 @@
 ---
-title: MongoDBインストールメモ
+title: MongoDBインストールと基本操作
 ---
 
 参考URL
@@ -57,6 +57,26 @@ MongoDBの操作
 
   ```mongo```
 
+- DB一覧を表示
+
+  ```show dbs```
+
 - DB選択
 
-  ```use mydb```
+  ```use <db_name>```
+
+- Collection一覧を表示
+
+  ```show collections```
+
+- Collectionの全ドキュメントを表示
+
+  ```db.<collection_name>.find()```
+
+- Collectionのドキュメント件数を表示
+
+  ```db.<collection_name>.count()```
+
+- Collectionの全ドキュメントを削除
+
+  ```db.<collection_name>.remove({})```
