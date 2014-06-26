@@ -34,7 +34,7 @@ Boxをダウンロード
 - vagrant box add コマンドでboxを追加する
   - (例) centos5 という 名前、「CentOS5.10-i386, 構成管理ツールなし」という環境のBoxを追加
 
-    ```vagrant box add centos5 http://puppet-vagrant-boxes.puppetlabs.com/centos-510-i386-virtualbox-nocm.box```
+    `vagrant box add centos5 http://puppet-vagrant-boxes.puppetlabs.com/centos-510-i386-virtualbox-nocm.box`
 
 
 初期設定～起動まで
@@ -44,12 +44,18 @@ Boxをダウンロード
 
 1. 初期設定
    - Vagrantfileを作成する
-     - vagrant init centos5
+
+     `vagrant init centos5`
+
    - 必要に応じて編集する（ひとまずそのままでもOK）
+
 2. ゲストOSの起動
-   - vagrant up
+
+  `vagrant up`
+
 3. ゲストOSに接続
-   - vagrant ssh
+
+  `vagrant ssh`
 
 
 ゲストOSの設定
