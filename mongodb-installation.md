@@ -31,7 +31,7 @@ enabled=1
 インストール
 ============
 
-```sudo yum install mongodb-org```
+`sudo yum install mongodb-org`
 
 
 MongoDBの操作
@@ -39,44 +39,44 @@ MongoDBの操作
 
 - 起動
 
-  ```sudo /sbin/service mongod start```
+  `sudo /sbin/service mongod start`
 
 - 停止
 
-  ```sudo /sbin/service mongod stop```
+  `sudo /sbin/service mongod stop`
 
 - 再起動
 
-  ```sudo /sbin/service mongod restart```
+  `sudo /sbin/service mongod restart`
 
 - 自動起動
 
-  ```sudo /sbin/chkconfig mongod on```
+  `sudo /sbin/chkconfig mongod on`
 
 - 接続
 
-  ```mongo```
+  `mongo`
 
 - DB一覧を表示
 
-  ```show dbs```
+  `show dbs`
 
 - DB選択
 
-  ```use <db_name>```
+  `use <db_name>`
 
 - Collection一覧を表示
 
-  ```show collections```
+  `show collections`
 
 - Collectionの全ドキュメントを表示
 
-  ```db.<collection_name>.find()```
+  `db.<collection_name>.find()`
 
 - Collectionのドキュメント件数を表示
 
-  ```db.<collection_name>.count()```
+  `db.<collection_name>.count()`
 
 - Collectionの全ドキュメントを削除
 
-  ```db.<collection_name>.remove({})```
+  `db.<collection_name>.remove({})`
