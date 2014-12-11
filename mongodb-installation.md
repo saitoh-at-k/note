@@ -57,6 +57,10 @@ MongoDBの操作
 
   `mongo`
 
+- ヘルプを表示
+
+  `help`
+
 - DB一覧を表示
 
   `show dbs`
