@@ -1,2 +1,24 @@
+#+TITLE: Test
+
 * Test
   test
+
+  #+BEGIN_SRC ruby
+    require 'pp'
+    
+    def foo(ary)
+      ary.each do |e|
+        pp "Foo #{e}"
+      end
+    end
+  #+END_SRC
+
+* ToDos
+** TODO test1
+** TODO test1
+** DONE test2
+
+* Check lists
+  - [ ] aaaa
+  - [ ] bbbb
+  - [X] cccc
