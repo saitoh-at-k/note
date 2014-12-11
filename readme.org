@@ -2,6 +2,7 @@
 
 * Test
   test
+  test
 
   #+BEGIN_SRC ruby
     require 'pp'
@@ -22,3 +23,5 @@
   - [ ] aaaa
   - [ ] bbbb
   - [X] cccc
+  - [[ToDos]]
+  - [[file:~/.emacs.d/init.el::(require%20'cl)][file へのリンク]]
